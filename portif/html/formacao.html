@@ -1,34 +1,89 @@
 <!DOCTYPE html>
-<html lang="pt-BR" data-bs-theme="dark">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formação</title>
+    <title>Portifolio</title>
     <link rel="stylesheet" href="/styles/style.css">
 </head>
-
-<header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-        <a class="navbar-brand" href="#">Formação</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-            <a class="nav-link" href="pagina_principal.html">Página principal</a>
-            <a class="nav-link" href="sobre_mim.html">Sobre mim</a>
-            <a class="nav-link active" aria-current="page"  href="formacao.html">Formação</a>
-            <a class="nav-link" href="atuacao_profissional.html">Atuação profissional</a>
-            <a class="nav-link" href="contato.html">Contato</a>
-            <a class="nav-link" href="portifolio.html">Portfólio</a>
-            </div>
-        </div>
-        </div>
+<body>
+<header id="topo" class="cabecalho">
+    <nav class="cabecalho__menu">
+        <a class="cabecalho__menu__link" href="/html/index.html">Home</a>
+        <a class="cabecalho__menu__link" href="/html/about.html">Sobre Mim</a>
+        <a class="cabecalho__menu__link" href="/html/atuacao_profissional.html">Atuação Profissional</a>
+        <a class="cabecalho__menu__link__ativo" href="/html/formacao.html">Formação</a>
+        <a class="cabecalho__menu__link" href="/html/portfolio.html">Portfólio</a>
+        <a class="cabecalho__menu__link" href="/html/contato.html">Contato</a>
     </nav>
 </header>
+<main class="apresentacao__centro">
+    <section class="apresentacao__conteudo__centro">
+        <h1 class="apresentacao__conteudo__titulo">Minhas formações</h1>
 
-<body>
-    
+
+<!-- DATA SCIENCE -->
+        <h2 class="apresentacao__conteudo__subtitulo">Alura - Data Science - 62hs</h2>
+            <p class="apresentacao__conteudo__texto"><strong class="destaque-titulo">Machine Learning:</strong> classificação com SKLearn - 8hrs</p>
+            <p class="apresentacao__conteudo__texto"><strong class="destaque-titulo">Machine Learning:</strong> lidando com dados de muitas dimensões - 12hrs</p>
+            <p class="apresentacao__conteudo__texto"><strong class="destaque-titulo">Machine Learning:</strong> classificação por trás dos panos - 8hrs</p>
+            <p class="apresentacao__conteudo__texto"><strong class="destaque-titulo">SQL com MySQL:</strong> manipule e consulte dados - 12hrs</p>
+            <p class="apresentacao__conteudo__texto"><strong class="destaque-titulo">Python para Data Science:</strong> linguagem e Numpy - 12hrs</p>
+            <p class="apresentacao__conteudo__texto"><strong class="destaque-titulo">Python para Data Science:</strong> Funções, Pacotes e Pandas - 10hrs</p>
+
+<!-- FRONT-END -->
+        <h2 class="apresentacao__conteudo__subtitulo">Alura - Front End - 42hs</h2>
+            <p class="apresentacao__conteudo__texto"><strong class="destaque-titulo">HTTP:</strong> Entendendo a web por baixo dos panos - 14hrs</p>
+            <p class="apresentacao__conteudo__texto"><strong class="destaque-titulo">HTML e CSS:</strong> ambientes de desenvolvimento, estrutura de arquivos e tags - 8hrs</p>
+            <p class="apresentacao__conteudo__texto"><strong class="destaque-titulo">HTML e CSS:</strong> Classes, posicionamento e Flexbox - 8hrs</p>
+            <p class="apresentacao__conteudo__texto"><strong class="destaque-titulo">HTML e CSS:</strong> cabeçalho, footer e variáveis CSS - 6hrs</p>
+            <p class="apresentacao__conteudo__texto"><strong class="destaque-titulo">HTML e CSS:</strong> trabalhando com responsividade e publicação de projetos - 6hrs</p>
+
+<!-- PROGRAMAÇÂO -->
+        <h2 class="apresentacao__conteudo__subtitulo">Alura - Programação - 40hs</h2>
+        
+            <p class="apresentacao__conteudo__texto"><strong class="destaque-titulo">JavaScript e HTML:</strong> desenvolva um jogo e pratique lógica de programação - 16hrs</p>
+        
+            <p class="apresentacao__conteudo__texto"><strong class="destaque-titulo">Python:</strong> começando com a linguagem - 12hrs</p>
+        
+            <p class="apresentacao__conteudo__texto"><strong class="destaque-titulo">Python:</strong> avançando na linguagem - 12hrs</p>
+            <p class="apresentacao__conteudo__texto">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+       
+<!-- DEVOPS -->
+        <h2 class="apresentacao__conteudo__subtitulo">Alura - DevOps - 10hs</h2>
+            <p class="apresentacao__conteudo__texto"><strong class="destaque-titulo">Pentest:</strong> explorando vulnerabilidades em aplicações web - 10hrs</p> 
+
+    </section>
+</main>
+
+<footer class="rodape">
+    <p class="rodape_texto">Desenvolvido por Cozta1.</p>
+    <div class="rodape_links">
+        <section class="rodape_apresentacao">
+        
+            <a class="apresentacao_links_rodape" href="https://github.com" role="button">
+                <img class="apresentacao__links__imagem" src="/assets/github-mark-white.png">
+            </a>
+      
+            <a class="apresentacao_links_rodape" href="https://www.linkedin.com" role="button">
+                <img class="apresentacao__links__imagem" src="/assets/linkedin-icon-18-256.png">
+            </a>
+
+            <a class="apresentacao_links_rodape" href="https://www.instagram.com" role="button">
+                <img class="apresentacao__links__imagem" src="/assets/logo insta branca.png">
+            </a>
+           
+          </section>
+
+    </div>
+
+      
+
+    <div class="topo">
+        <a class="topo_link" href="#topo">Voltar ao Topo</a>
+    </div>
+
+</footer>
 </body>
+</html>
