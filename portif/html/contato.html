@@ -6,18 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
     <link rel="stylesheet" href="/styles/style.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"> -->
 </head>
 <body>
-<header id="topo" class="cabecalho">
-    <nav class="cabecalho__menu">
-        <a class="cabecalho__menu__link" href="/html/index.html">Home</a>
-        <a class="cabecalho__menu__link" href="/html/about.html">Sobre Mim</a>
-        <a class="cabecalho__menu__link" href="/html/atuacao_profissional.html">Atuação Profissional</a>
-        <a class="cabecalho__menu__link" href="/html/formacao.html">Formação</a>
-        <a class="cabecalho__menu__link" href="/html/portfolio.html">Portfólio</a>
-        <a class="cabecalho__menu__link__ativo" href="/html/contato.html">Contato</a>
+<header id="topo">
+    <nav class="cabecalho">
+        <ul class="cabecalho__menu">
+            <li class="cabecalho__menu__item"><a class="cabecalho__menu__link" href="/html/index.html">Home</a></li>
+            <li class="cabecalho__menu__item"><a class="cabecalho__menu__link" href="/html/about.html">Sobre Mim</a></li>
+            <li class="cabecalho__menu__item"><a class="cabecalho__menu__link" href="/html/atuacao_profissional.html">Atuação Profissional</a></li>
+            <li class="cabecalho__menu__item"><a class="cabecalho__menu__link" href="/html/formacao.html">Formação</a></li>
+            <li class="cabecalho__menu__item"><a class="cabecalho__menu__link" href="/html/portfolio.html">Portfólio</a></li>
+            <li class="cabecalho__menu__item"><a class="cabecalho__menu__link__ativo" href="/html/contato.html">Contato</a></li> 
+        </ul>
+        <div class="hamburguer">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>  
     </nav>
 </header>
+
 <main class="apresentacao__centro">
     <section class="apresentacao__conteudo__centro">
         <h1 class="apresentacao__conteudo__titulo__centro">Entre em contato</h1>
@@ -25,22 +34,39 @@
         <div class="apresentacao__links">
             <h2 class="apresentacao__links__subtitulo">Minhas redes:</h2>
                 
-            <a class="apresentacao__links__navegacao" href="https://github.com">
+            <a class="apresentacao__links__navegacao" href="https://github.com" target="_blank">
                 <img class="apresentacao__links__imagem" src="/assets/github-mark-white.png">
-                Github
-                    
+                Github     
             </a>
-            <a class="apresentacao__links__navegacao" href="https://www.linkedin.com">
+            <a class="apresentacao__links__navegacao" href="https://www.linkedin.com" target="_blank">
                 <img class="apresentacao__links__imagem" src="/assets/linkedin-icon-18-256.png">
-                Linkedin
-                    
+                Linkedin       
             </a>
-            <a class="apresentacao__links__navegacao" href="https://www.instagram.com">
+            <a class="apresentacao__links__navegacao" href="https://www.instagram.com" target="_blank">
                 <img class="apresentacao__links__imagem" src="/assets/logo insta branca.png">
-                Instagram
-                    
+                Instagram       
             </a>
-            <p class="apresentacao__conteudo__texto">Meu email pessoal: zkozta@gmail.com</p>
+            
+
+            <p class="apresentacao__conteudo__texto">Meu numero para contato:(32) xxxxx-xxxx</p>
+            <form action="mailto:nome@email.com" method="POST" enctype="text/plain">
+                <div class="form">    
+                    <h2 class="apresentacao__conteudo__subtitulo">Email</h2>
+
+                <p class="apresentacao__conteudo__texto">Seu nome:</p>
+                <input class="form__input" type="text" name="nome" placeholder="Nome">
+
+                <p class="apresentacao__conteudo__texto">Seu E-mail:</p>
+                <input class="form__input" type="email" name="email" placeholder="nome@email.com">
+
+                <p class="apresentacao__conteudo__texto">Mensagem:</p>
+                <textarea name="mensagem" cols="50" rows="15"></textarea>
+                <input class="form__input" type="submit" value="Enviar">
+                <input class="form__input" type="reset" value="Limpar">
+
+                </div>
+            </form>
+            <!-- <p class="apresentacao__conteudo__texto">Email profissional: nome@email.com</p> -->
         </div>
     </section>
 </main>
@@ -73,5 +99,6 @@
     </div>
 
 </footer>
+<script src="/js/script.js"></script>
 </body>
 </html>

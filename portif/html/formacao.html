@@ -6,18 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
     <link rel="stylesheet" href="/styles/style.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"> -->
 </head>
 <body>
-<header id="topo" class="cabecalho">
-    <nav class="cabecalho__menu">
-        <a class="cabecalho__menu__link" href="/html/index.html">Home</a>
-        <a class="cabecalho__menu__link" href="/html/about.html">Sobre Mim</a>
-        <a class="cabecalho__menu__link" href="/html/atuacao_profissional.html">Atuação Profissional</a>
-        <a class="cabecalho__menu__link__ativo" href="/html/formacao.html">Formação</a>
-        <a class="cabecalho__menu__link" href="/html/portfolio.html">Portfólio</a>
-        <a class="cabecalho__menu__link" href="/html/contato.html">Contato</a>
-    </nav>
-</header>
+    <header id="topo">
+        <nav class="cabecalho">
+            <ul class="cabecalho__menu">
+                <li class="cabecalho__menu__item"><a class="cabecalho__menu__link" href="/html/index.html">Home</a></li>
+                <li class="cabecalho__menu__item"><a class="cabecalho__menu__link" href="/html/about.html">Sobre Mim</a></li>
+                <li class="cabecalho__menu__item"><a class="cabecalho__menu__link" href="/html/atuacao_profissional.html">Atuação Profissional</a></li>
+                <li class="cabecalho__menu__item"><a class="cabecalho__menu__link__ativo" href="/html/formacao.html">Formação</a></li>
+                <li class="cabecalho__menu__item"><a class="cabecalho__menu__link" href="/html/portfolio.html">Portfólio</a></li>
+                <li class="cabecalho__menu__item"><a class="cabecalho__menu__link" href="/html/contato.html">Contato</a></li>
+            </ul>
+            <div class="hamburguer">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>  
+        </nav>
+    </header>
 <main class="apresentacao__centro">
     <section class="apresentacao__conteudo__centro">
         <h1 class="apresentacao__conteudo__titulo">Minhas formações</h1>
@@ -42,19 +50,15 @@
 
 <!-- PROGRAMAÇÂO -->
         <h2 class="apresentacao__conteudo__subtitulo">Alura - Programação - 40hs</h2>
-        
             <p class="apresentacao__conteudo__texto"><strong class="destaque-titulo">JavaScript e HTML:</strong> desenvolva um jogo e pratique lógica de programação - 16hrs</p>
-        
             <p class="apresentacao__conteudo__texto"><strong class="destaque-titulo">Python:</strong> começando com a linguagem - 12hrs</p>
-        
             <p class="apresentacao__conteudo__texto"><strong class="destaque-titulo">Python:</strong> avançando na linguagem - 12hrs</p>
             <p class="apresentacao__conteudo__texto">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
        
 <!-- DEVOPS -->
         <h2 class="apresentacao__conteudo__subtitulo">Alura - DevOps - 10hs</h2>
             <p class="apresentacao__conteudo__texto"><strong class="destaque-titulo">Pentest:</strong> explorando vulnerabilidades em aplicações web - 10hrs</p> 
-
-            <a class="apresentacao__conteudo__certificado" href="https://cursos.alura.com.br/user/zkozta/fullCertificate/70c0572b7addc81822a7e6c90c2fe3cb" target="_blank">Link para o<strong class="destaque-titulo"> Certificado Alura</strong></a>
+            <p class="apresentacao__conteudo__texto">Link para o<a class="apresentacao__conteudo__certificado" href="https://cursos.alura.com.br/user/zkozta/fullCertificate/70c0572b7addc81822a7e6c90c2fe3cb" target="_blank"><strong class="destaque-titulo"> Certificado Alura</strong></a></p>
     </section>
 </main>
 
@@ -63,15 +67,15 @@
     <div class="rodape_links">
         <section class="rodape_apresentacao">
         
-            <a class="apresentacao_links_rodape" href="https://github.com" role="button">
+            <a class="apresentacao_links_rodape" href="https://github.com" role="button" target="_blank">
                 <img class="apresentacao__links__imagem" src="/assets/github-mark-white.png">
             </a>
       
-            <a class="apresentacao_links_rodape" href="https://www.linkedin.com" role="button">
+            <a class="apresentacao_links_rodape" href="https://www.linkedin.com" role="button" target="_blank">
                 <img class="apresentacao__links__imagem" src="/assets/linkedin-icon-18-256.png">
             </a>
 
-            <a class="apresentacao_links_rodape" href="https://www.instagram.com" role="button">
+            <a class="apresentacao_links_rodape" href="https://www.instagram.com" role="button" target="_blank">
                 <img class="apresentacao__links__imagem" src="/assets/logo insta branca.png">
             </a>
            
@@ -86,5 +90,6 @@
     </div>
 
 </footer>
+<script src="/js/script.js"></script>
 </body>
 </html>

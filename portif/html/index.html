@@ -6,44 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
     <link rel="stylesheet" href="/styles/style.css">
+
 </head>
 <body>
-<header id="topo" class="cabecalho">
-    <nav class="cabecalho__menu">
-        <a class="cabecalho__menu__link__ativo" href="/html/index.html">Home</a>
-        <a class="cabecalho__menu__link" href="/html/about.html">Sobre Mim</a>
-        <a class="cabecalho__menu__link" href="/html/atuacao_profissional.html">Atuação Profissional</a>
-        <a class="cabecalho__menu__link" href="/html/formacao.html">Formação</a>
-        <a class="cabecalho__menu__link" href="/html/portfolio.html">Portfólio</a>
-        <a class="cabecalho__menu__link" href="/html/contato.html">Contato</a>
+<header id="topo">
+    <nav class="cabecalho">
+        <ul class="cabecalho__menu">
+            <li class="cabecalho__menu__item"><a class="cabecalho__menu__link__ativo" href="/html/index.html">Home</a></li>
+            <li class="cabecalho__menu__item"><a class="cabecalho__menu__link" href="/html/about.html">Sobre Mim</a></li>
+            <li class="cabecalho__menu__item"><a class="cabecalho__menu__link" href="/html/atuacao_profissional.html">Atuação Profissional</a></li>
+            <li class="cabecalho__menu__item"><a class="cabecalho__menu__link" href="/html/formacao.html">Formação</a></li>
+            <li class="cabecalho__menu__item"><a class="cabecalho__menu__link" href="/html/portfolio.html">Portfólio</a></li>
+            <li class="cabecalho__menu__item"><a class="cabecalho__menu__link" href="/html/contato.html">Contato</a></li>
+        </ul>
+        <div class="hamburguer">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div> 
+
     </nav>
 </header>
 <main class="apresentacao">
     <section class="apresentacao__conteudo">
-        <h1 class="apresentacao__conteudo__titulo">Olá! Sou João Costa, atualmente estudante de <strong class="destaque-titulo"> Sistemas de Informção</strong></h1>
+        <h1 class="apresentacao__conteudo__titulo">Olá! Sou João Victor da Costa, atualmente estudante de <strong class="destaque-titulo"> Sistemas de Informção</strong></h1>
         <p class="apresentacao__conteudo__texto">Estou atualmente estudando Machine Learning, SQL, Python e Segurança digital.</p>
         <p class="apresentacao__conteudo__texto">Pretendo me especializar na área de segurança e dados, mas apenas depois de avançar no essencial</p>
 
-        <!-- <div class="apresentacao__links">
-            <h2 class="apresentacao__links__subtitulo">Minhas redes:</h2>
-                
-            <a class="apresentacao__links__navegacao" href="https://github.com">
-                <img class="apresentacao__links__imagem" src="/assets/github-mark-white.png">
-                Github
-                    
-            </a>
-            <a class="apresentacao__links__navegacao" href="https://www.linkedin.com">
-                <img class="apresentacao__links__imagem" src="/assets/linkedin-icon-18-256.png">
-                Linkedin
-                    
-            </a>
-            <a class="apresentacao__links__navegacao" href="https://www.instagram.com">
-                <img class="apresentacao__links__imagem" src="/assets/logo insta branca.png">
-                Instagram
-                    
-            </a>
-                
-        </div> -->
+
     </section>
     <img class="apresentacao__imagem" src="/assets/images.jfif" alt="placeholder">
 </main>
@@ -53,15 +43,15 @@
     <div class="rodape_links">
         <section class="rodape_apresentacao">
         
-            <a class="apresentacao_links_rodape" href="https://github.com" role="button">
+            <a class="apresentacao_links_rodape" href="https://github.com" role="button" target="_blank">
                 <img class="apresentacao__links__imagem" src="/assets/github-mark-white.png">
             </a>
       
-            <a class="apresentacao_links_rodape" href="https://www.linkedin.com" role="button">
+            <a class="apresentacao_links_rodape" href="https://www.linkedin.com" role="button" target="_blank">
                 <img class="apresentacao__links__imagem" src="/assets/linkedin-icon-18-256.png">
             </a>
 
-            <a class="apresentacao_links_rodape" href="https://www.instagram.com" role="button">
+            <a class="apresentacao_links_rodape" href="https://www.instagram.com" role="button" target="_blank">
                 <img class="apresentacao__links__imagem" src="/assets/logo insta branca.png">
             </a>
            
@@ -76,5 +66,6 @@
     </div>
 
 </footer>
+<script src="/js/script.js"></script>
 </body>
 </html>

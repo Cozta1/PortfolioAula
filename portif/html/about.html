@@ -6,27 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
     <link rel="stylesheet" href="/styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
-<header id="topo" class="cabecalho">
-    <nav class="cabecalho__menu">
-        <a class="cabecalho__menu__link" href="/html/index.html">Home</a>
-        <a class="cabecalho__menu__link__ativo" href="/html/about.html">Sobre Mim</a>
-        <a class="cabecalho__menu__link" href="/html/atuacao_profissional.html">Atuação Profissional</a>
-        <a class="cabecalho__menu__link" href="/html/formacao.html">Formação</a>
-        <a class="cabecalho__menu__link" href="/html/portfolio.html">Portfólio</a>
-        <a class="cabecalho__menu__link" href="/html/contato.html">Contato</a>
+<header id="topo">
+    <nav class="cabecalho">
+        <ul class="cabecalho__menu">
+            <li class="cabecalho__menu__item"><a class="cabecalho__menu__link" href="/html/index.html">Home</a></li>
+            <li class="cabecalho__menu__item"><a class="cabecalho__menu__link__ativo" href="/html/about.html">Sobre Mim</a></li>
+            <li class="cabecalho__menu__item"><a class="cabecalho__menu__link" href="/html/atuacao_profissional.html">Atuação Profissional</a></li>
+            <li class="cabecalho__menu__item"><a class="cabecalho__menu__link" href="/html/formacao.html">Formação</a></li>
+            <li class="cabecalho__menu__item"><a class="cabecalho__menu__link" href="/html/portfolio.html">Portfólio</a></li>
+            <li class="cabecalho__menu__item"><a class="cabecalho__menu__link" href="/html/contato.html">Contato</a></li>
+        </ul>
+        <div class="hamburguer">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
     </nav>
 </header>
-<main class="apresentacao">
-    <section class="apresentacao__conteudo">
-        <h1 class="apresentacao__conteudo__titulo">Sobre mim</h1>
+
+<main class="apresentacao__centro">
+    <section class="apresentacao__conteudo__centro">
+        <h1 class="apresentacao__conteudo__titulo__centro">Sobre mim</h1>
         <p class="apresentacao__conteudo__texto">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+        <img class="apresentacao__imagem__centro" src="/assets/images.jfif" alt="placeholder">
         <p class="apresentacao__conteudo__texto">
         Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores ipsum delis forum birol parela maxime infena. Excepteur sint occaecat cupidatat non.
         </p>
     </section>
-    <img class="apresentacao__imagem" src="/assets/images.jfif" alt="placeholder">
+
 </main>
 
 <footer class="rodape">
@@ -34,15 +45,15 @@
     <div class="rodape_links">
         <section class="rodape_apresentacao">
         
-            <a class="apresentacao_links_rodape" href="https://github.com" role="button">
+            <a class="apresentacao_links_rodape" href="https://github.com" role="button" target="_blank">
                 <img class="apresentacao__links__imagem" src="/assets/github-mark-white.png">
             </a>
       
-            <a class="apresentacao_links_rodape" href="https://www.linkedin.com" role="button">
+            <a class="apresentacao_links_rodape" href="https://www.linkedin.com" role="button" target="_blank">
                 <img class="apresentacao__links__imagem" src="/assets/linkedin-icon-18-256.png">
             </a>
 
-            <a class="apresentacao_links_rodape" href="https://www.instagram.com" role="button">
+            <a class="apresentacao_links_rodape" href="https://www.instagram.com" role="button" target="_blank">
                 <img class="apresentacao__links__imagem" src="/assets/logo insta branca.png">
             </a>
            
@@ -57,5 +68,6 @@
     </div>
 
 </footer>
+<script src="/js/script.js"></script>
 </body>
 </html>
