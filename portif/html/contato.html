@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
     <link rel="stylesheet" href="/styles/style.css">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"> -->
 </head>
 <body>
 <header id="topo">
@@ -50,8 +49,9 @@
 
             <p class="apresentacao__conteudo__texto">Meu numero para contato:(32) xxxxx-xxxx</p>
             <form action="mailto:nome@email.com" method="POST" enctype="text/plain">
+                
                 <div class="form">    
-                    <h2 class="apresentacao__conteudo__subtitulo">Email</h2>
+                <h2 class="apresentacao__conteudo__subtitulo">Email</h2>
 
                 <p class="apresentacao__conteudo__texto">Seu nome:</p>
                 <input class="form__input" type="text" name="nome" placeholder="Nome">
@@ -60,13 +60,12 @@
                 <input class="form__input" type="email" name="email" placeholder="nome@email.com">
 
                 <p class="apresentacao__conteudo__texto">Mensagem:</p>
-                <textarea name="mensagem" cols="50" rows="15"></textarea>
-                <input class="form__input" type="submit" value="Enviar">
-                <input class="form__input" type="reset" value="Limpar">
+                <textarea name="mensagem" cols="50" rows="15" placeholder="Sua Mensagem"></textarea>
+                <input class="form__input button" type="submit" value="Enviar">
+                <input class="form__input button" type="reset" value="Limpar">
 
                 </div>
             </form>
-            <!-- <p class="apresentacao__conteudo__texto">Email profissional: nome@email.com</p> -->
         </div>
     </section>
 </main>
